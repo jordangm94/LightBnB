@@ -78,6 +78,11 @@ $(() => {
             <input placeholder="Postal Code" type="text" name="post_code" id="new-property-form__zip" />
           </div>
         </div>
+        <div class="new-property-form__field-wrapper">
+        <label for="new-property-form__active">Active</label>
+        <input placeholder="Is your property available for stay: true or false?" type="text" name="active" id="new-property-form__active" />
+      </div>
+    </div>
 
         <div class="new-property-form__field-wrapper">
             <button>Create</button>
