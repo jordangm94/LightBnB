@@ -71,7 +71,7 @@ $(() => {
           </div>
           <div class="new-property-form__field-wrapper">
             <label for="new-property-form__state">Administrative Area</label>
-            <input placeholder="Administrative Area" type="text" name="province" id="new-property-form__state" />
+            <input placeholder="Province/State" type="text" name="province" id="new-property-form__state" />
           </div>
           <div class="new-property-form__field-wrapper">
             <label for="new-property-form__zip">Postal Code</label>
@@ -80,7 +80,7 @@ $(() => {
         </div>
         <div class="new-property-form__field-wrapper">
         <label for="new-property-form__active">Active</label>
-        <input placeholder="Is your property available for stay: true or false?" type="text" name="active" id="new-property-form__active" />
+        <input placeholder="Is your property available for rental: true or false?" type="text" name="active" id="new-property-form__active" />
       </div>
     </div>
 
